@@ -14,12 +14,8 @@ public class CakeBaker {
     }
 
 
-    String getSyrup(){
-        return syrup.getSyrup();
-    }
-
-    String getFrosting(){
-        return frosting.getFrosting();
+    String bakeCake(){
+        return "Baking cake with " + frosting.getFrosting() + " and " + syrup.getSyrup();
     }
 
 }

@@ -20,7 +20,7 @@ public class AliceBakery implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Baking cake with " + baker.getFrosting() + " and " + baker.getSyrup());
+		System.out.println(baker.bakeCake());
 	}
 
 	@PostConstruct
